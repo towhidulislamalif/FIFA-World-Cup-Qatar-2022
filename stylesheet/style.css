@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@400;600;700&display=swap");
 
 /* Global Styles */
 
@@ -12,12 +12,52 @@ body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
-
-nav ul {
+h2 {
+  color: #fff;
+  font-size: 1.7rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
 }
+/* Footer Area */
+footer {
+  background-color: #020f2a;
+  padding: 6.25rem 0;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
 nav li {
+  margin: 2rem;
 }
 nav a {
+  color: #fff;
+  font-weight: 400;
+  text-decoration: none;
 }
-nav a:hover {
+.copyright-info {
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+/* Media Queries */
+
+@media (max-width: 1024px) {
+  nav ul {
+    flex-flow: row wrap;
+  }
+  nav li {
+    margin: 1rem;
+  }
+}
+@media (max-width: 480px) {
+  nav ul {
+    flex-direction: column;
+  }
+  nav li {
+    margin: 0.75rem;
+  }
 }
