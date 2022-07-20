@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
 
-/* global styles */
+/* Global Styles */
 
 * {
   box-sizing: border-box;
@@ -12,51 +12,44 @@ body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
-
-h1,
-h2,
-h3 {
+h1 {
+  color: #fff;
   font-family: "Raleway", sans-serif;
+  font-weight: 700;
 }
-
-nav ul {
-  list-style: none;
+h2 {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
 }
-
-nav a {
+h3 {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+a {
+  color: #fff;
   text-decoration: none;
 }
+/* Footer Area */
 
-/* footer */
-footer {
-  background-color: #020f2a;
-  padding: 9rem 0;
+#footer-container {
+  background-color: #000;
+  height: 18.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-footer .footer-heading {
-  text-align: center;
-}
-#legal-info ul {
+.legal-info ul {
   display: flex;
   justify-content: center;
+  list-style: none;
+  padding: 2rem;
 }
-#legal-info li {
-  margin: 1.5rem 1.5rem;
+.legal-info li {
+  margin: 0 1rem;
 }
-#legal-info a {
+.copyright-info {
   color: #fff;
-}
-#social-info ul {
-  display: flex;
-  justify-content: center;
-}
-#social-info li {
-  margin: 1.5rem 1.5rem;
-}
-
-/* fa-icons */
-.fa-facebook-f,
-.fa-instagram,
-.fa-twitter {
-  color: #fff;
-  font-size: 1.5rem;
 }
