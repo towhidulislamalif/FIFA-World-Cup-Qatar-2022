@@ -12,44 +12,12 @@ body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
-h1 {
-  color: #fff;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-}
-h2 {
-  color: #fff;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-}
-h3 {
-  color: #fff;
-  font-family: "Raleway", sans-serif;
-  font-weight: 400;
-}
-a {
-  color: #fff;
-  text-decoration: none;
-}
-/* Footer Area */
 
-#footer-container {
-  background-color: #000;
-  height: 18.75rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+nav ul {
 }
-.legal-info ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  padding: 2rem;
+nav li {
 }
-.legal-info li {
-  margin: 0 1rem;
+nav a {
 }
-.copyright-info {
-  color: #fff;
+nav a:hover {
 }
